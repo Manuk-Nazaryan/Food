@@ -1,0 +1,206 @@
+body{
+    background-color: #352F44;
+}
+.bg{
+    background-image: url(../image/bg.jpg);
+    height: 80vh;
+    background-color: #495057;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.689);
+}
+.head-font{
+    margin-left: 1050px;
+    color: white;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+    /* align-items: center; */
+    /* padding-top: 20px; */
+    
+}
+.bg h1 {
+    display: flex;
+    justify-content: flex-end;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+    font-size: 70px;
+    padding-right:10% ;
+    padding-top: 3%;
+    gap:80px;
+    text-align: center;
+    line-height: 100px;
+    /* color: wh; */
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    font-style: italic; 
+}
+.menu-bg{
+    background-color: #352F44;
+}
+.menu-style{
+    border: 2px solid gray;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px;
+    text-decoration: none;
+    color: #FAF0E6;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 7px;
+    background-color: rgb(219, 157, 43);
+    transition: right 0.4s linear 0.1s;
+    /* background-color: orange; */
+}
+.menu-style:hover{
+    background-color: rgb(18, 230, 18);
+    
+    transition: ease-in 0.4s;
+}
+.style-name{
+text-align: center;
+box-shadow: 5px 5px 10px gray;
+font-style: oblique;
+}
+.image-pizza{
+    width: 400px;
+    height: 400px;
+    margin-top:20px ;
+
+    /* box-shadow: 5px 5px  10px rgb(158, 156, 156); */
+}
+.image-pizza:hover{
+width: 450px;
+height: 450px;
+transition:  ease-in 0.6s;
+}
+.img-pizza{
+    display: grid;
+    grid-template-columns:repeat(3,2fr);
+background-image: url(../image/bg.jpg)    
+/* position: absolute;  */
+}
+.pizza-buy{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+    color: red;
+    font-weight: 100px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: orange;
+}
+
+.buy-style{
+    font-size: 20px;
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ED1C24;
+margin-left: 115px;
+color: #FFFFFF;
+}
+.sushi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url(../image/bgSushi.jpg);
+}
+.image-sushi{
+    width: 400px;
+    height: 400px;
+    margin-top:20px ;
+    margin-left: 50px;
+}
+.image-sushi:hover{
+    width: 450px;
+    height: 450px;
+    transition:  ease-in 1s;   
+}
+.sushi-buy{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 120px;
+    color: red;
+    font-weight: 100px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(246, 180, 59);   
+}
+.style-buy{
+    font-size: 20px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #ED1C24;
+margin-left: 160px;
+color: #FFFFFF;   
+}
+.fast{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url(../image/fastbg.jpg);
+}
+.fast-buy{    font-size: 20px;
+    text-align: center;
+    margin-left: 120px;
+    color: red;
+    font-weight: 100px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(227, 164, 46);   
+}
+.fast-count{
+    width: 200px;
+    height: 25px;
+    margin-left:145px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.style-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ margin-bottom: 70px;
+    margin-left: 110px;
+}
+.footer-logo{
+    margin-left: 19px;
+    margin-top: 30px;
+}
+.text-logo{
+    text-align: center;
+color: gray;
+margin-right: 150px;
+}
+.text-style{    
+    color: white;
+    text-align: center;
+    margin-right: 60px;
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+}
+.logo-style,:nth-of-type(2){
+padding:5px 3px 0 3px;
+}
+.phone{
+display: flex;
+    margin:200px 0 0  100px;
+    position: fixed;
+    
+}
+.card-style{
+    padding:12px 0 0 0;
+
+}
