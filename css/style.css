@@ -301,6 +301,7 @@ visibility: hidden;
 }
 .footer-logo{
     width: 100px;
+    
 }
 .text-style{
     font-size: 13px;
@@ -324,10 +325,14 @@ visibility: hidden;
  text-align: left;
  padding-right: 165px;   
 }
+.text-logo{
+padding-left: 10px;    
+}
 .text-style{
-    padding-right:85px ;
+    padding-right:115px ;
 }
 .logo-style{
-    padding-left: 20px;
+    padding-right: 20px;
 }
+
 }
