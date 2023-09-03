@@ -245,11 +245,6 @@ width: 100px;
  grid-template-columns: repeat(1,1fr);
  /* padding-left:10px ;    */
     }
-    .image-pizza{
-     width: 200px;
-     height: 200px;
-    }
-    
     .pizza-buy{
  
         display: none;
@@ -259,7 +254,7 @@ width: 100px;
     }
     .buy-style{
         margin:14px 0 0 10px;
-font-size:25px ;
+font-size:20px ;
 
     }
     .style-buy{
@@ -273,13 +268,13 @@ font-size:25px ;
         /* height: 800px; */
     }
 
-    .image-sushi{
-        width: 200px;
-        height: 200px;
+    .image-sushi,.image-pizza{
+        width: 100px;
+        height: 100px;
     }
     .image-sushi:hover,.image-pizza:hover{
-width: 250px;
-height: 250px;
+width: 150px;
+height: 150px;
 transition: ease-in 0.7s;
     }
         .sushi-buy,#sushi-hidden,#buy5,#buy4{
