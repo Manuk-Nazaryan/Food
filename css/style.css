@@ -221,7 +221,7 @@ body{
     .img-pizza{
  display: grid;
  grid-template-columns: repeat(1,1fr);
- padding-left:80px ;   
+ /* padding-left:10px ;    */
     }
     .pizza-buy{
  
@@ -239,14 +239,13 @@ font-size:25px ;
         
     }
     .sushi{
-        padding:0 80px;
+        /* padding:0 80px; */
         display: grid;
         grid-template-columns: repeat(1,1fr);
         /* height: 800px; */
     }
 
     .image-sushi{
-        
         width: 300px;
         height: 300px;
     }
@@ -267,7 +266,7 @@ display: none;}
 .fast{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 #image-fast:hover{
 width: 350px;
@@ -282,7 +281,7 @@ visibility: hidden;
 }
 .text-logo{
   font-size: 12px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
 }
 .footer-logo{
     width: 100px;
@@ -306,6 +305,14 @@ transition: 1s ease-in;
 }
 .style-footer{
  display: grid;
- grid-template-columns: repeat(2,1fr);   
+ grid-template-columns: repeat(1,1fr);
+ text-align: left;
+ padding-right: 165px;   
+}
+.text-style{
+    padding-right:85px ;
+}
+.logo-style{
+    padding-left: 20px;
 }
 }
