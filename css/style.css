@@ -269,12 +269,12 @@ font-size:20px ;
     }
 
     .image-sushi,.image-pizza{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .image-sushi:hover,.image-pizza:hover{
-width: 150px;
-height: 150px;
+width: 250px;
+height: 250px;
 transition: ease-in 0.7s;
     }
         .sushi-buy,#sushi-hidden,#buy5,#buy4{
