@@ -8,15 +8,16 @@
 </head>
 <body>
     <div class="menu-bg">
-    <div class="menu">
-        <image src="./image/logo.svg" ></image>
-    <a href="#pizza" class="menu-style" id="pizza-style">Տաշիր պիցցա</a>
+    </div>
+    <image src="./image/logo.svg" ></image>
+        <div class="menu">
+            <ion-icon name="menu" class="icon" ></ion-icon>
+            <a href="#pizza" class="menu-style" id="pizza-style">Տաշիր պիցցա</a>
     <a href="#sushi" class="menu-style">Սուշի Սուտեկի բար </a>
     <a href="#fast" class="menu-style">Արագ սնունդ</a>
 </div>
-</div>
     <header class="bg">
-        <h1>The best <br> in the<br> world</h1>
+        <h1 class="header" id="text-header">The best <br> in the<br> world</h1>
         <!-- <h1 class="head-font">The best</h1> -->
         <!-- <h1 class="head-font">in the</h1> -->
         <!-- <h1 class="head-font">world</h1> -->
@@ -43,7 +44,7 @@
         <div class="sushi" id="sushi">
 <img src="./image/sushi1.jpg" class="image-sushi">
 <img src="./image/sushi.jpg" class="image-sushi">
-<img src="./image/sushi2.jpg" class="image-sushi">
+<img src="./image/sushi2.jpg" class="image-sushi" id="sushi-hidden">
 <h2 class="sushi-buy">150$/AMD</h2>
 <h2 class="sushi-buy">200$/AMD</h2>
 <h2 class="sushi-buy">250$/AMD</h2>
@@ -56,9 +57,9 @@
         </div>
         <h1 class="style-name">Արագ սնունդ</h1>
         <div class="fast" id="fast">
-            <img src="./image/fast.jpg" class="image-sushi">
-            <img src="./image/fast1.jpg" class="image-sushi">
-            <img src="./image/fast2.jpg" class="image-sushi">
+            <img src="./image/fast.jpg" class="image-sushi" id="image-fast">
+            <img src="./image/fast1.jpg" class="image-sushi"  id="image-fast">
+            <img src="./image/fast2.jpg" class="image-sushi" id="fast-hidden"> 
             <h2 class="fast-buy">25$/AMD</h2>
             <h2 class="fast-buy">70$/AMD</h2>
             <h2 class="fast-buy">120$/AMD</h2>
@@ -91,11 +92,14 @@
             </div>
             <div>
             <img class="card-style" src="./image/cards.svg"/>
-            <img class="phone" src="./image/branchPhone.svg"/>
+            <!-- <img src=""/> -->
         </div>
             
                     
     </footer>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <ion-icon src="/path/to/external/file.svg"></ion-icon>
+
         <script src="./src.js"></script>
 </body>
 </html>
